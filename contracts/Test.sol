@@ -5,9 +5,9 @@ pragma solidity ^0.8.0;
 contract TestContract {
 
     string private value;
-    bool isReady;
-    uint num = 4500;
-    uint[4] arr = [1, 2, 3, 4];
+    bool private isReady;
+    uint private num = 4500;
+    uint[4] private arr = [1, 2, 3, 4];
 
     constructor (string memory _value) {
         value = _value;
